@@ -6,6 +6,9 @@
 			<th></th>	<!-- 표 안에 제목을 나타내는 태그(굵기 + 가운데 정렬) -->
 			<tr></tr>	<!-- 표에 행을 만드는 태그(= 세로, 줄) -->
 			<td></td>	<!-- 표에 열을 만드는 태그(= 가로, 칸) -->
+			
+			<th rowspan = N>			<!-- 행(= 세로, 줄) 방향으로 N칸만큼 셀 합치기 -->
+			<th colspan = N>			<!-- 열(= 가로, 칸) 방향으로 N칸만큼 행 합치기 -->
 									
 			<bgcolor = color>			<!-- 태그를 사용하는 위치에 따라 table(표 전체), tr(세로), td(가로) 배경색 설정 -->
 
@@ -20,7 +23,7 @@
 			<table cellpadding = N>		<!-- 표 안에 칸 내부의 여백을 설정 -->
 			
 			<table border = N>			<!-- 표의 테두리를 생성 -->
-			<table bordercolor = color>		<!-- 테두리의 색을 설정 -->			
+			<table bordercolor = color>		<!-- 테두리의 색을 설정 -->
 		</table>
 	</body>
 </html>
